@@ -1,0 +1,61 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://certificacion.educatablet.com:9797/webPublisher/ContentAuthor/SelectPublisher"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "editorial"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "2"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='example-datatables3_length']//select[.='102550100']//option[2]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='example-datatables3_length']//select[.='102550100']//option[3]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='example-datatables3_length']//select[.='102550100']//option[4]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "oox"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
