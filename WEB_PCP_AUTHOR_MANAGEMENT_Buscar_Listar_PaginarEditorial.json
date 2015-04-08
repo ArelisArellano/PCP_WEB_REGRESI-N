@@ -1,0 +1,226 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://certificacion.educatablet.com:9797/webPublisher/ContentAuthor/SelectPublisher"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "editorial"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "editorial"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "li.next.disabled > a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "li.prev > a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "i.icon-search"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "alba"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "alba"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='example-datatables3_length']//select[.='102550100']//option[2]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": ""
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "4"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "6"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "i.icon-chevron-right"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "i.icon-chevron-right"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='example-datatables3_length']//select[.='102550100']//option[3]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "i.icon-chevron-right"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "2"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "1"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "li.prev.disabled > a"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='example-datatables3_length']//select[.='102550100']//option[4]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "i.icon-chevron-right"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "editorial"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='example-datatables3_length']//select[.='102550100']//option[1]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "i.icon-chevron-right"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='example-datatables3_length']//select[.='102550100']//option[2]"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
